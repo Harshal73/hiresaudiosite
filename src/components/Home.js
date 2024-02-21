@@ -10,7 +10,7 @@ const Home = () => {
           className="text-4xl sm:text-7xl font-bold
           text-gray-200  ml-16 pt-20 "
         >
-          Powerful sound for any purpose for free
+          Powerful sound for any purpose
         </h1>
       </div>
       <div>
