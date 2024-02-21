@@ -25,7 +25,7 @@ const NavBar = () => {
   return (
     <div
       className="flex justify-between items-center w-full
-    px-4 h-10 text-white  bg-black fixed"
+    px-4 h-10 text-white  bg-black"
     >
       <div>
         <img src={Logo} alt="hireslogo" className="mx-auto w-12 px-2" />
@@ -53,7 +53,7 @@ const NavBar = () => {
       {nav && (
         <ul
           className="flex flex-col justify-center items-center
-            absolute top-0 left-0 w-full h-screen "
+            absolute top-0 left-0 w-full h-screen bg-black "
         >
           {links.map(({ id, link }) => (
             <li

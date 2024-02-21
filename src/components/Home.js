@@ -1,5 +1,6 @@
 import React from "react";
 import vidwave from "../assets/wave.mp4";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -48,12 +49,16 @@ const Home = () => {
         </div>
       </div>
       <div className="pt-10">
-        <button
-          className="text-gray-800 bg-slate-300 px-6 py-2
+        <Link to="/albums">
+          <button
+            className="text-gray-800 bg-slate-300 px-6 py-2
             mx-auto flex items-center rounded-lg hover:scale-110 duration-200"
-        >
-          go to albums
-        </button>
+            component={Link}
+            to="/albums"
+          >
+            go to albums
+          </button>
+        </Link>
       </div>
     </div>
   );
