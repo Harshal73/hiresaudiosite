@@ -4,6 +4,7 @@ import Album from "./components/Album";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import { Route, Routes } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </Routes>
 
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
