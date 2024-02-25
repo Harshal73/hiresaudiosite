@@ -10,17 +10,22 @@ function Album() {
         className="max-w-screen-lg mx-auto flex flex-col
        items-center  justify-center h-full md:flex-row  "
       >
-        <div className=" pt-12 ml-5 ">
+        <div className="cursor-pointer pt-12 ml-5 bg-fixed opacity-85 transition duration-200 ease-in-out hover:opacity-100">
           <img src={mbdf} alt="mbdfcover" className="w-1/2  " />
-          <p className="text-white text-sm  pt-5 pr-5">Dark Twisted Fantasy</p>
+          <p className="text-gray-200 text-sm font-sans   pt-5 pr-5">
+            Dark Twisted Fantasy
+          </p>
         </div>
-        <div className="pt-12 ml-5  ">
+        <div className="cursor-pointer pt-12 ml-5 bg-fixed opacity-85 transition duration-200 ease-in-out hover:opacity-100 ">
           <img src={Yeezus} alt="mbdfcover" className="w-1/2" />
-          <p className="text-white text-sm  pt-5 pr-5">Yeezus</p>
+          <p className="text-gray-200 text-sm font-sans   pt-5 pr-5">Yeezus</p>
         </div>
-        <div className="  pt-12  ml-5  ">
-          <img src={Graduation} alt="mbdfcover" className="w-1/5" />
-          <p className="text-white text-sm  pt-5 pr-5"> Graduation</p>
+        <div className="cursor-pointer  pt-12  ml-5 bg-fixed opacity-85 transition duration-200 ease-in-out hover:opacity-100 ">
+          <img src={Graduation} alt="mbdfcover" className="w-1/2" />
+          <p className="text-gray-200 text-sm font-sans  pt-5 pr-5">
+            {" "}
+            Graduation
+          </p>
         </div>
       </div>
     </div>
