@@ -2,6 +2,7 @@ import React from "react";
 import mbdf from "../assets/mbdf.jpg";
 import Yeezus from "../assets/ycover.jpg";
 import Graduation from "../assets/grad.jpeg";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function Album() {
   return (
@@ -28,6 +29,7 @@ function Album() {
           </p>
         </div>
       </div>
+      <SpeedInsights />
     </div>
   );
 }
