@@ -19,7 +19,7 @@ function Album() {
           <p className="text-white text-sm  pt-5 pr-5">Yeezus</p>
         </div>
         <div className="  pt-12  ml-5  ">
-          <img src={Graduation} alt="mbdfcover" className="w-3/4" />
+          <img src={Graduation} alt="mbdfcover" className="w-1/5" />
           <p className="text-white text-sm  pt-5 pr-5"> Graduation</p>
         </div>
       </div>
