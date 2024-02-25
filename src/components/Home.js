@@ -24,12 +24,7 @@ const Home = () => {
       </div>
       <div className="flex flex-col ml-10 justify-evenly md:flex-row pb-16 ">
         <div>
-          <h3 className="text-gray-200 font-sans font-bold text-2xl ">
-            Max
-            <span className="ml-5 rounded-full text-xs font-bold text-white bg-amber-400 opacity-50 py-1 px-2">
-              Max
-            </span>
-          </h3>
+          <h3 className="text-gray-200 font-sans font-bold text-2xl ">Max</h3>
           <p className="text-gray-300 font-sans  ">(Up to 24-bit, 192 kHz)</p>
           <p className="text-gray-300 font-sans  ">
             Experience best-in-class sound quality that
@@ -43,12 +38,7 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <h3 className="text-gray-200 font-sans font-bold text-2xl ">
-            High
-            <span className="ml-5 rounded-full text-xs font-bold text-white bg-green-400 opacity-50 py-1 px-2">
-              High
-            </span>
-          </h3>
+          <h3 className="text-gray-200 font-sans font-bold text-2xl ">High</h3>
           <p className="text-gray-300 font-sans  ">(Up to 16-bit, 44.1 kHz)</p>
           <p className="text-gray-300 font-sans  ">
             Listen to over 100M songs in studio quality with
@@ -62,7 +52,7 @@ const Home = () => {
         <Link to="/albums">
           <button
             className="text-gray-950 font-sans bg-white rounded-full px-6 py-2
-            mx-auto flex items-center rounded-lg hover:scale-110 duration-200"
+            mx-auto flex items-center  hover:scale-110 duration-200"
             component={Link}
             to="/albums"
           >
